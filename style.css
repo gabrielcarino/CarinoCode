@@ -1,3 +1,16 @@
 body {
     background: #f0ce69;
 }
+h1 {
+    font-size: 32px;
+    color: #17b7c5;
+}
+h2 {
+    font-size: 56px;
+    color: #14858F;
+}
+h3 {
+    font-size: 48px;
+    font-family: Monaco, monospace;
+    color: #367278;
+}
