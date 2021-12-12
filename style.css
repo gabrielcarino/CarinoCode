@@ -1,43 +1,47 @@
 body {
     background: #f0ce69;
-    width:fit-content;
+    width: 100vw;
+    height: 100vh;
     color: #367278;
     font-family: monospace;
 }
-main {
-    position: relative;
+.mainHeader {
+    position: fixed;
+    background: #f0ce69;
+    width: 100vw;
+    height: 120px;
 }
-header {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.logo {
+    padding: 10px 10px;
+}
+main {
+    padding-left: 50px;
+    padding-top: 100px;
+    width: inherit;
+    height: inherit;
 }
 h1 {
-    position: relative;
-    top: 200px;
-    left: 50px;
     font-size: 32px;
     color: #17b7c5;
 }
 h2 {
-    position: relative;
-    top: 150px;
-    left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 56px;
     color: #14858F;
 }
 h3 {
-    position: relative;
-    top: 100px;
-    left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: -120px;
     font-size: 48px;
 }
 p {
-    position:relative;
-    top: 50px;
-    left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: -170px;
     font-size: 32px;
-    width: 900px;
+    width: 90vw;
 }
 a {
     color: inherit;
