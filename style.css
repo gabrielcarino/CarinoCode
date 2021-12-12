@@ -46,3 +46,12 @@ p {
 a {
     color: inherit;
 }
+.synth {
+    margin: 40px;
+    color: #17b7c5;
+}
+button {
+    margin: 0px;
+    width: 7vw;
+    height: 100px;
+}
